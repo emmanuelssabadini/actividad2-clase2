@@ -1,7 +1,7 @@
 *{margin: 0; 
     padding: 0%;
 }
-body {
+.portada {
     background-image: url('../img/Jellyfish.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,13 +21,20 @@ h1 {color: brown;}
     list-style-position: inside;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
+    text-align: center;
 }
+
+.navbar li {
+    display: inline-block;
+    }
 
 .contenido{
 
     background-color: brown;
-    width: 70%;
-    padding: 2rem;
+    width: 60%;
+    height: 60%;
+    display: inline-block;
+    text-align: center;
 
 }
 
@@ -35,6 +42,8 @@ h1 {color: brown;}
 
 width: 50%;
 background-color: blue;
+border: 3px solid black;
+padding: 50pxv;
 
 }
 
@@ -47,9 +56,7 @@ width: 40%;
 
 contenido_sugerencias {
 
-    background-color: crimson;
-    height: 100%;
-    width: 30%;
-    padding: 2rem;
+    background-color: rgb(146, 70, 85);  
+    text-align: end;  
 
 }
