@@ -5,6 +5,7 @@ body {
     background-image: url('../img/Jellyfish.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 .fuente1 {
@@ -20,4 +21,35 @@ h1 {color: brown;}
     list-style-position: inside;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
+}
+
+.contenido{
+
+    background-color: brown;
+    width: 70%;
+    padding: 2rem;
+
+}
+
+.contenido_img {
+
+width: 50%;
+background-color: blue;
+
+}
+
+.contenido_img img{
+
+width: 40%;
+
+
+}
+
+contenido_sugerencias {
+
+    background-color: crimson;
+    height: 100%;
+    width: 30%;
+    padding: 2rem;
+
 }
